@@ -1,21 +1,5 @@
 MWS Result File Version 20140818
 :8:1000
-hidden
-internal
-survivemeshadapt
-result
-0
-HIDDENITEM
-model.gex
-:8:1000
-hidden
-internal
-survivemeshadapt
-result
-0
-HIDDENITEM
-PP.fmm
-:8:1000
 visible
 internal
 persistent
@@ -88,23 +72,3 @@ signal_default.sig
 
 Time / ns
 Excitation: default
-:8:1000
-visible
-internal
-rebuild
-result
-0
-MODE
-2D/3D Results\Port Modes\Port1\e1
-Port1_e1.prt
-
-:8:1000
-visible
-internal
-rebuild
-result
-0
-MODE
-2D/3D Results\Port Modes\Port1\h1
-Port1_h1.prt
-

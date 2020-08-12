@@ -1,0 +1,214 @@
+Defined reference frequency for open boundary condition (1.8 GHz) is larger
+than the lowest relevant system frequency (monitor at 0.698 GHz).
+Please check open boundary settings to ensure accurate monitor results for the
+lowest frequency of interest.
+
+--------------------------------------------------------------------------------
+Build version: 2015.0 Release from 2015-01-16 (change 344899)
+
+Starting adaptive port meshing.
+
+--------------------------------------------------------------------------------
+Mode calculation for port 2:
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Number of mesh faces filled with PEC due to fill limit restrictions: 0
+
+--------------------------------------------------------------------------------
+Port mode solver: Detected dispersive material(s) at port 2. 
+Using a constant approximation of dispersive material(s) at 1.8GHz and
+neglecting loss terms. 
+
+--------------------------------------------------------------------------------
+  -------------------------------- F-Calc 1.8 --------------------------------
+  Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+  2      1      UNDEF       208           1.69e-010     ---           ---
+  ----------------------------------------------------------------------------
+
+*** Warning ***
+
+At least one propagating mode at port 2 is not considered in the time domain
+calculation! It might be better to increase the number of modes at port 2.
+More...
+
+--------------------------------------------------------------------------------
+Pass 1 successfully completed. 
+Adaptive port meshing finished. 
+
+--------------------------------------------------------------------------------
+
+Solver started at: 02:51 PM Wednesday, 12. August 2020
+
+  Module:  Time Domain: S-Parameter (Win 64)
+  Version: 2015.0 Release from 2015-01-16 (change 344899)
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+======================================================================
+ Solver cycle: 1
+======================================================================
+
+Stimulation at port 2 (mode 1) 
+
+
+--------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: mm
+  Frequency:  GHz
+  Time:       ns
+
+--------------------------------------------------------------------------------
+Number of mesh faces filled with PEC due to fill limit restrictions: 0
+
+--------------------------------------------------------------------------------
+Mesh statistics:
+
+   Hexahedral mesh type: FPBA [accuracy enhancement is enabled]
+
+   Parallelization type: domain decomposition
+      Number of parallel working threads: 4
+      Number of calculation domains used: 4
+
+
+--------------------------------------------------------------------------------
+Port mode solver: Detected dispersive material(s) at port 2. 
+Using a constant approximation of dispersive material(s) at 1.8GHz and
+neglecting loss terms. 
+
+--------------------------------------------------------------------------------
+Boundary conditions: 
+
+  YZsymmetry: none
+  XZsymmetry: none
+  XYsymmetry: none
+
+  Xmin: expanded open, 4 Layer, depth 33.3103 mm
+  Xmax: expanded open, 4 Layer, depth 33.3103 mm
+
+  Ymin: expanded open, 4 Layer, depth 33.3103 mm
+  Ymax: expanded open, 4 Layer, depth 33.3103 mm
+
+  Zmin: expanded open, 4 Layer, depth 33.3103 mm
+  Zmax: expanded open, 4 Layer, depth 33.3103 mm
+
+  PML-Type: Convolution PML
+
+--------------------------------------------------------------------------------
+Frequency settings: 
+
+  Fmin:    0
+  Fmax:    3.6
+  Nfsteps: 1001
+
+--------------------------------------------------------------------------------
+Waveguide boundaries:
+
+Port: 2
+
+  -------------------------------- F-Calc 1.8 --------------------------------
+  Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+  2      1      UNDEF       208           1.56e-010     ---           ---
+  ----------------------------------------------------------------------------
+
+  Using first order filter.
+
+--------------------------------------------------------------------------------
+  Using first order filter.
+
+--------------------------------------------------------------------------------
+*** Warning ***
+
+The following port mode is at least partially excited below its cutoff
+frequency: 2(1). 
+
+--------------------------------------------------------------------------------
+*** Warning ***
+
+At least one propagating mode at port 2 is not considered in the time domain
+calculation! It might be better to increase the number of modes at port 2.
+More...
+
+--------------------------------------------------------------------------------
+*** Warning ***
+
+The first mode at inhomogeneous port 2 is hybrid. This could lead to an
+inaccurate energy balance. Please check your structure. More...
+
+--------------------------------------------------------------------------------
+Field update statistics:
+
+  Number of components in total: 	2064802
+  Number of lossy metal components:	9725
+  Number of disp. elements:		199246
+
+Subcycling state:      Automatically deactivated
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Steady state energy criterion met, solver finished successfully.
+
+--------------------------------------------------------------------------------
+Frequency domain results normalized to default signal.
+
+--------------------------------------------------------------------------------
+
+  ----------------------------------------------------------------------------
+                      Peak memory used (kB)         Free physical memory (kB) 
+                                                    At begin     Minimum      
+  ----------------------------------------------------------------------------
+  Matrices calc.      399428                        7548072      7211724      
+  Solver run total    667508                        7624700      6824188      
+  ----------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Solver Statistics:
+
+  Hardware:
+     Computer name:                 	DESKTOP-S1T4ESL 
+
+     Number of CPU threads:             4
+     hardware info:                  	hardware acceleration not activated
+
+  Number of mesh cells:             	335153
+  Excitation duration:              	9.87374652e-001 ns 
+  Calculation time for excitation:  	4      	s
+  Number of calculated pulse widths:	5.66778 
+  Steady state accuracy limit:      	-30	dB 
+  Simulated number of time steps:   	2714   
+  Maximum number of time steps:     	9576   
+  Time step width:
+     without subcycles:             	2.06198440e-003 ns
+     used:                          	2.06198440e-003 ns
+
+  Matrix calculation time:          	16     	s
+  Solver setup time:                	6      	s
+  Solver loop time:                 	24     	s
+  Solver post processing time:      	22     	s
+                                    	------------
+  Total solver time:                	68     	s  ( = 0 h, 1 m, 8 s )
+
+--------------------------------------------------------------------------------
+
+  Adaptive port meshing time:       	6      	s
+  Total solver time (all cycles):   	69     	s  ( = 0 h, 1 m, 9 s )
+                                    	------------
+  Total simulation time:            	75     	s  ( = 0 h, 1 m, 15 s )
+
+--------------------------------------------------------------------------------
+Solver finished at: 02:52 PM Wednesday, 12. August 2020
+
+
+--------------------------------------------------------------------------------
+Creating parametric 1D results.
+
+--------------------------------------------------------------------------------

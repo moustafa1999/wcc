@@ -3,7 +3,7 @@
 [Author]
 WCC
 [Mesh Cells]
-161,700
+175,480
 [Mesh Type]
 Hexahedral
 [Last Problem Type]
@@ -15,5 +15,5 @@ t
 [Results]
 Time Domain: S-Parameter
 [Modeler Unique ID]
-5:half ground.cst?05615ff0cb8880e1c4b0b6350bcf6e53?11530:numberofparameters=9:port=1>mode=1>zre=0>zim=0:::fi?gpf?hs?ht?l?lg?w?wf?wgr
+5:half ground.cst?f909fb94bbbe0596ec9b1f48de15fc4d?11535:numberofparameters=9:port=1>mode=1>zre=0>zim=0:::fi?gpf?hs?ht?l?lg?w?wf?wgr
 [Comment]

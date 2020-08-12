@@ -3,7 +3,7 @@
 [Author]
 WCC
 [Mesh Cells]
-348,000
+351,625
 [Mesh Type]
 Hexahedral
 [Last Problem Type]
@@ -15,5 +15,5 @@ t
 [Results]
 Time Domain: S-Parameter
 [Modeler Unique ID]
-5:cut corner n=2+ sub height 10.3+ inset feed 36.3+full ground.cst?ac037d514fd4b195278e86a2019e082a?15019:numberofparameters=10:port=1>mode=1>zre=0>zim=0:::l1?fi?gpf?hs?ht?l?lg?w?wf?wgr
+5:cut corner n=2+ sub height 10.3+ inset feed 36.3+full ground.cst?dc65abb0f400393acc899fdbff96859a?15054:numberofparameters=10:port=1>mode=1>zre=0>zim=0:::fi?gpf?hs?ht?l?l1?lg?w?wf?wgr
 [Comment]

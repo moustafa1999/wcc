@@ -229,7 +229,7 @@ With Brick
      .Component "component1" 
      .Material "Copper (annealed)" 
      .Xrange "-0.5*wgr", "0.5*wgr" 
-     .Yrange "-0.5*lg", "0.5*lg" 
+     .Yrange "-0.5*lg", "0" 
      .Zrange "0", "0.035" 
      .Create
 End With
@@ -546,11 +546,12 @@ With Brick
      .Name "n=1" 
      .Component "component1" 
      .Material "Nickel" 
-     .Xrange "-132/2", "-78.8/2" 
-     .Yrange "-103/2", "-61.2/2" 
+     .Xrange "-133.7/2", "-80.5/2" 
+     .Yrange "-101.6/2", "-59.8/2" 
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
+
 
 '@ boolean subtract shapes: component1:feedline, component1:n=1
 
@@ -565,11 +566,12 @@ With Brick
      .Name "n=1 righttop" 
      .Component "component1" 
      .Material "Nickel" 
-     .Xrange "132/2", "78.8/2" 
-     .Yrange "103/2", "61.2/2" 
+     .Xrange "133.7/2", "80.5/2" 
+     .Yrange "101.6/2", "59.8/2" 
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
+
 
 '@ boolean subtract shapes: component1:feedline, component1:n=1 righttop
 
@@ -584,11 +586,12 @@ With Brick
      .Name "n=1 left up" 
      .Component "component1" 
      .Material "Nickel" 
-     .Xrange "-132/2", "-78.8/2" 
-     .Yrange "103/2", "61.2/2" 
+     .Xrange "-133.7/2", "-80.5/2" 
+     .Yrange "101.6/2", "59.8/2" 
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
+
 
 '@ boolean subtract shapes: component1:feedline, component1:n=1 left up
 
@@ -603,16 +606,17 @@ With Brick
      .Name "solid1" 
      .Component "component1" 
      .Material "Nickel" 
-     .Xrange "132/2", "78.8/2" 
-     .Yrange "-103/2", "-61.2/2" 
+     .Xrange "133.7/2", "80.5/2" 
+     .Yrange "-101.6/2", "-59.8/2" 
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
 
+
 '@ boolean subtract shapes: component1:feedline, component1:solid1
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:feedline", "component1:solid1" 
+Solid.Subtract "component1:feedline", "component1:solid1"
 
 '@ define brick: component1:n=2
 
@@ -622,8 +626,8 @@ With Brick
      .Name "n=2" 
      .Component "component1" 
      .Material "Nickel" 
-     .Xrange "-132/2", "-97.2/2" 
-     .Yrange "-103+l1/2", "-34/2" 
+     .Xrange "-133.7/2", "-98.9/2" 
+     .Yrange "-101.6+l1/2", "-35.4/2" 
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
@@ -632,7 +636,7 @@ End With
 '@ boolean subtract shapes: component1:feedline, component1:n=2
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:feedline", "component1:n=2" 
+Solid.Subtract "component1:feedline", "component1:n=2"
 
 '@ define brick: component1:n=2 bottom right
 
@@ -642,8 +646,8 @@ With Brick
      .Name "n=2 bottom right" 
      .Component "component1" 
      .Material "Nickel" 
-     .Xrange "132/2", "97.2/2" 
-     .Yrange "-103+l1/2", "-34/2" 
+     .Xrange "133.7/2", "98.9/2" 
+     .Yrange "-101.6+l1/2", "-35.4/2" 
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
@@ -652,7 +656,7 @@ End With
 '@ boolean subtract shapes: component1:feedline, component1:n=2 bottom right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:feedline", "component1:n=2 bottom right" 
+Solid.Subtract "component1:feedline", "component1:n=2 bottom right"
 
 '@ define brick: component1:n=2 top left
 
@@ -662,8 +666,8 @@ With Brick
      .Name "n=2 top left" 
      .Component "component1" 
      .Material "Nickel" 
-     .Xrange "-132/2", "-97.2/2" 
-     .Yrange "103+l1/2", "34/2" 
+     .Xrange "-133.7/2", "-98.9/2" 
+     .Yrange "101.6+l1/2", "35.4/2" 
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
@@ -672,7 +676,7 @@ End With
 '@ boolean subtract shapes: component1:feedline, component1:n=2 top left
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:feedline", "component1:n=2 top left" 
+Solid.Subtract "component1:feedline", "component1:n=2 top left"
 
 '@ define brick: component1:n=2 top right
 
@@ -682,8 +686,8 @@ With Brick
      .Name "n=2 top right" 
      .Component "component1" 
      .Material "Nickel" 
-     .Xrange "132/2", "97.2/2" 
-     .Yrange "103+l1/2", "34/2" 
+     .Xrange "133.7/2", "98.9/2" 
+     .Yrange "101.6+l1/2", "35.4/2" 
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With

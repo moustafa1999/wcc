@@ -234,7 +234,6 @@ With Brick
      .Create
 End With
 
-
 '@ define material: FR-4 (lossy)
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
@@ -612,7 +611,7 @@ End With
 '@ boolean subtract shapes: component1:feedline, component1:solid1
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:feedline", "component1:solid1" 
+Solid.Subtract "component1:feedline", "component1:solid1"
 
 '@ define brick: component1:n=2
 
@@ -628,11 +627,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:feedline, component1:n=2
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:feedline", "component1:n=2" 
+Solid.Subtract "component1:feedline", "component1:n=2"
 
 '@ define brick: component1:n=2 bottom right
 
@@ -648,11 +646,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:feedline, component1:n=2 bottom right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:feedline", "component1:n=2 bottom right" 
+Solid.Subtract "component1:feedline", "component1:n=2 bottom right"
 
 '@ define brick: component1:n=2 top left
 
@@ -668,11 +665,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:feedline, component1:n=2 top left
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:feedline", "component1:n=2 top left" 
+Solid.Subtract "component1:feedline", "component1:n=2 top left"
 
 '@ define brick: component1:n=2 top right
 
@@ -687,7 +683,6 @@ With Brick
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
-
 
 '@ boolean subtract shapes: component1:feedline, component1:n=2 top right
 

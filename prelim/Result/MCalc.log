@@ -1,0 +1,268 @@
+DESKTOP-S1T4ESL: <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                 2020 Aug 12 (Wed): 15:08:18
+                 <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                 
+DESKTOP-S1T4ESL: ===============================
+                 Processing CAD model
+                 Version 2015.0 (build 20150116)
+                 2020 Aug 12 (Wed): 15:08:18
+                 ===============================
+                 
+DESKTOP-S1T4ESL: sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                 The point accuracy has been changed from 0.00% to 16.00% after complexity analysis.
+                 sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                 
+DESKTOP-S1T4ESL: ssssssssssssssssssssssssssssssssssss
+                 The point accuracy is set to 16.00%.
+                 ssssssssssssssssssssssssssssssssssss
+                 
+==================================================================================================
+== CST Matrix Calculation Priority Log                                                          ==
+==================================================================================================
+ 
+Priorities are sorted in ascending order beginning with the lowest priority
+ 
+Priority:   3, shape   3: component1:substrate, material: FR-4 (lossy)
+Priority:   4, shape   1: component1:feedline, material: Copper (annealed)
+Priority:   4, shape   2: component1:ground, material: Copper (annealed)
+ 
+==================================================================================================
+ 
+DESKTOP-S1T4ESL: =======================
+                 Finished CAD processing
+                 =======================
+                 
+DESKTOP-S1T4ESL: >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                 2020 Aug 12 (Wed): 15:08:19
+                 >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                 
+DESKTOP-S1T4ESL: <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                 2020 Aug 12 (Wed): 15:08:20
+                 <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                 
+DESKTOP-S1T4ESL: ===============================
+                 Port preparation
+                 Version 2015.0 (build 20150116)
+                 2020 Aug 12 (Wed): 15:08:20
+                 ===============================
+                 
+DESKTOP-S1T4ESL: ==========================
+                 Finished port preparation.
+                 ==========================
+                 
+DESKTOP-S1T4ESL: >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                 2020 Aug 12 (Wed): 15:08:20
+                 >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                 
+DESKTOP-S1T4ESL: <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                 2020 Aug 12 (Wed): 15:08:20
+                 <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                 
+DESKTOP-S1T4ESL: ==============================
+                 Mesher selection: manual: FPBA
+                 ==============================
+                 
+DESKTOP-S1T4ESL: =======================================
+                 Matrix computation (FPBA)
+                 	[FPBA accuracy enhancement is enabled]
+                 Version 2015.0 (build 20150116)
+                 2020 Aug 12 (Wed): 15:08:22
+                 =======================================
+                 
+DESKTOP-S1T4ESL: sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                 The point accuracy has been changed from 0.00% to 75.00% after complexity analysis.
+                 sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                 
+DESKTOP-S1T4ESL: ssssssssssssssssssssssssssssssssssss
+                 The point accuracy is set to 75.00%.
+                 ssssssssssssssssssssssssssssssssssss
+                 
+DESKTOP-S1T4ESL: ==================================
+                 Finished matrix computation (FPBA)
+                 ==================================
+                 
+DESKTOP-S1T4ESL: >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                 2020 Aug 12 (Wed): 15:08:23
+                 >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                 
+DESKTOP-S1T4ESL: <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                 2020 Aug 12 (Wed): 15:08:25
+                 <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                 
+DESKTOP-S1T4ESL: ==============================
+                 Mesher selection: manual: FPBA
+                 ==============================
+                 
+DESKTOP-S1T4ESL: =======================================
+                 Matrix computation (FPBA)
+                 	[FPBA accuracy enhancement is enabled]
+                 Version 2015.0 (build 20150116)
+                 2020 Aug 12 (Wed): 15:08:25
+                 =======================================
+                 
+DESKTOP-S1T4ESL: sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                 The point accuracy has been changed from 0.00% to 75.00% after complexity analysis.
+                 sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                 
+DESKTOP-S1T4ESL: ssssssssssssssssssssssssssssssssssss
+                 The point accuracy is set to 75.00%.
+                 ssssssssssssssssssssssssssssssssssss
+                 
+DESKTOP-S1T4ESL: ==================================
+                 Finished matrix computation (FPBA)
+                 ==================================
+                 
+DESKTOP-S1T4ESL: >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                 2020 Aug 12 (Wed): 15:08:27
+                 >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                 
+DESKTOP-S1T4ESL: <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                 2020 Aug 12 (Wed): 15:08:29
+                 <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                 
+DESKTOP-S1T4ESL: ==============================
+                 Mesher selection: manual: FPBA
+                 ==============================
+                 
+DESKTOP-S1T4ESL: =======================================
+                 Matrix computation (FPBA)
+                 	[FPBA accuracy enhancement is enabled]
+                 Version 2015.0 (build 20150116)
+                 2020 Aug 12 (Wed): 15:08:29
+                 =======================================
+                 
+DESKTOP-S1T4ESL: sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                 The point accuracy has been changed from 0.00% to 75.00% after complexity analysis.
+                 sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                 
+DESKTOP-S1T4ESL: ssssssssssssssssssssssssssssssssssss
+                 The point accuracy is set to 75.00%.
+                 ssssssssssssssssssssssssssssssssssss
+                 
+DESKTOP-S1T4ESL: ==================================
+                 Finished matrix computation (FPBA)
+                 ==================================
+                 
+DESKTOP-S1T4ESL: >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                 2020 Aug 12 (Wed): 15:08:33
+                 >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                 
+DESKTOP-S1T4ESL: <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                 2020 Aug 12 (Wed): 15:08:36
+                 <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                 
+DESKTOP-S1T4ESL: ==============================
+                 Mesher selection: manual: FPBA
+                 ==============================
+                 
+DESKTOP-S1T4ESL: =======================================
+                 Matrix computation (FPBA)
+                 	[FPBA accuracy enhancement is enabled]
+                 Version 2015.0 (build 20150116)
+                 2020 Aug 12 (Wed): 15:08:36
+                 =======================================
+                 
+DESKTOP-S1T4ESL: sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                 The point accuracy has been changed from 0.00% to 75.00% after complexity analysis.
+                 sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                 
+DESKTOP-S1T4ESL: ssssssssssssssssssssssssssssssssssss
+                 The point accuracy is set to 75.00%.
+                 ssssssssssssssssssssssssssssssssssss
+                 
+DESKTOP-S1T4ESL: ==================================
+                 Finished matrix computation (FPBA)
+                 ==================================
+                 
+DESKTOP-S1T4ESL: >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                 2020 Aug 12 (Wed): 15:08:44
+                 >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                 
+DESKTOP-S1T4ESL: <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                 2020 Aug 12 (Wed): 15:08:48
+                 <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                 
+DESKTOP-S1T4ESL: ======================
+                 Mesher selection: FPBA
+                 ======================
+                 
+DESKTOP-S1T4ESL: ===============================
+                 Processing CAD model
+                 Version 2015.0 (build 20150116)
+                 2020 Aug 12 (Wed): 15:08:48
+                 ===============================
+                 
+DESKTOP-S1T4ESL: sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                 The point accuracy has been changed from 0.00% to 16.00% after complexity analysis.
+                 sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                 
+DESKTOP-S1T4ESL: ssssssssssssssssssssssssssssssssssss
+                 The point accuracy is set to 16.00%.
+                 ssssssssssssssssssssssssssssssssssss
+                 
+DESKTOP-S1T4ESL: =======================
+                 Finished CAD processing
+                 =======================
+                 
+DESKTOP-S1T4ESL: 1xN000: <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                         2020 Aug 12 (Wed): 15:08:49
+                         <<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+DESKTOP-S1T4ESL: 1xN000: =======================================
+                         Matrix computation (FPBA)
+                         	[FPBA accuracy enhancement is enabled]
+                         Version 2015.0 (build 20150116)
+                         2020 Aug 12 (Wed): 15:08:49
+                         =======================================
+
+DESKTOP-S1T4ESL: 1xN000: sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                         The point accuracy has been changed from 0.00% to 16.00% after complexity analysis.
+                         sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+
+DESKTOP-S1T4ESL: 1xN000: ssssssssssssssssssssssssssssssssssss
+                         The point accuracy is set to 16.00%.
+                         ssssssssssssssssssssssssssssssssssss
+
+DESKTOP-S1T4ESL: 1xN000: ==================================
+                         Finished matrix computation (FPBA)
+                         ==================================
+
+DESKTOP-S1T4ESL: 1xN000: >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                         2020 Aug 12 (Wed): 15:09:00
+                         >>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+DESKTOP-S1T4ESL: 1xN001: <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                         2020 Aug 12 (Wed): 15:08:49
+                         <<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+DESKTOP-S1T4ESL: 1xN001: =======================================
+                         Matrix computation (FPBA)
+                         	[FPBA accuracy enhancement is enabled]
+                         Version 2015.0 (build 20150116)
+                         2020 Aug 12 (Wed): 15:08:49
+                         =======================================
+
+DESKTOP-S1T4ESL: 1xN001: sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                         The point accuracy has been changed from 0.00% to 16.00% after complexity analysis.
+                         sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+
+DESKTOP-S1T4ESL: 1xN001: ssssssssssssssssssssssssssssssssssss
+                         The point accuracy is set to 16.00%.
+                         ssssssssssssssssssssssssssssssssssss
+
+DESKTOP-S1T4ESL: 1xN001: ==================================
+                         Finished matrix computation (FPBA)
+                         ==================================
+
+DESKTOP-S1T4ESL: 1xN001: >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                         2020 Aug 12 (Wed): 15:08:59
+                         >>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+DESKTOP-S1T4ESL: >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                 2020 Aug 12 (Wed): 15:09:02
+                 >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                 
