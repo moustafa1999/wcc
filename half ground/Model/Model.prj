@@ -1,0 +1,19 @@
+[Version]
+2
+[Author]
+WCC
+[Mesh Cells]
+161,700
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Time Domain: S-Parameter
+[Modeler Unique ID]
+5:half ground.cst?05615ff0cb8880e1c4b0b6350bcf6e53?11530:numberofparameters=9:port=1>mode=1>zre=0>zim=0:::fi?gpf?hs?ht?l?lg?w?wf?wgr
+[Comment]

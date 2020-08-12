@@ -1,0 +1,19 @@
+[Version]
+2
+[Author]
+WCC
+[Mesh Cells]
+202,400
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Unavailable
+[Modeler Unique ID]
+5:first sim.cst?f4dbca68e74c3d024b2ab51a8dac0d71?13251:numberofparameters=9:port=1>mode=1>zre=0>zim=0:::fi?gpf?hs?ht?l?lg?w?wf?wgr
+[Comment]

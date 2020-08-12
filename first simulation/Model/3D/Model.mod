@@ -23,11 +23,8 @@ With Units
     .Conductance "Siemens"
     .Capacitance "PikoF"
 End With
-
 '----------------------------------------------------------------------------
-
 Plot.DrawBox True
-
 With Background
      .Type "Normal"
      .Epsilon "1.0"
@@ -39,7 +36,6 @@ With Background
      .ZminSpace "0.0"
      .ZmaxSpace "0.0"
 End With
-
 With Boundary
      .Xmin "expanded open"
      .Xmax "expanded open"
@@ -51,9 +47,7 @@ With Boundary
      .Ysymmetry "none"
      .Zsymmetry "none"
 End With
-
 ' optimize mesh settings for planar structures
-
 With Mesh
      .MergeThinPECLayerFixpoints "True"
      .RatioLimit "20"
@@ -64,43 +58,32 @@ With Mesh
      .AnisotropicCurvatureRefinement "True"
      .AnisotropicCurvatureRefinementFSM "True"
 End With
-
 With MeshSettings
      .SetMeshType "Hex"
      .Set "RatioLimitGeometry", "20"
      .Set "EdgeRefinementOn", "1"
      .Set "EdgeRefinementRatio", "6"
 End With
-
 With MeshSettings
      .SetMeshType "HexTLM"
      .Set "RatioLimitGeometry", "20"
 End With
-
 With MeshSettings
      .SetMeshType "Tet"
      .Set "VolMeshGradation", "1.5"
      .Set "SrfMeshGradation", "1.5"
 End With
-
 ' change mesh adaption scheme to energy
 ' 		(planar structures tend to store high energy
 '     	 locally at edges rather than globally in volume)
-
 MeshAdaption3D.SetAdaptionStrategy "Energy"
-
 ' switch on FD-TET setting for accurate farfields
-
 FDSolver.ExtrudeOpenBC "True"
-
 PostProcess1D.ActivateOperation "vswr", "true"
 PostProcess1D.ActivateOperation "yz-matrices", "true"
-
 '----------------------------------------------------------------------------
-
 'set the frequency range
 Solver.FrequencyRange "0", "3.6"
-
 Dim sDefineAt As String
 sDefineAt = "0.698;0.7;2.4;3.4;3.6"
 Dim sDefineAtName As String
@@ -111,15 +94,12 @@ Dim aFreq() As String
 aFreq = Split(sDefineAt, ";")
 Dim aNames() As String
 aNames = Split(sDefineAtName, ";")
-
 Dim nIndex As Integer
 For nIndex = LBound(aFreq) To UBound(aFreq)
-
 Dim zz_val As String
 zz_val = aFreq (nIndex)
 Dim zz_name As String
 zz_name = sDefineAtToken & aNames (nIndex)
-
 ' Define E-Field Monitors
 With Monitor
     .Reset
@@ -130,7 +110,6 @@ With Monitor
     .Frequency zz_val
     .Create
 End With
-
 ' Define H-Field Monitors
 With Monitor
     .Reset
@@ -141,7 +120,6 @@ With Monitor
     .Frequency zz_val
     .Create
 End With
-
 ' Define Power flow Monitors
 With Monitor
     .Reset
@@ -152,7 +130,6 @@ With Monitor
     .Frequency zz_val
     .Create
 End With
-
 ' Define Power loss Monitors
 With Monitor
     .Reset
@@ -163,7 +140,6 @@ With Monitor
     .Frequency zz_val
     .Create
 End With
-
 ' Define Farfield Monitors
 With Monitor
     .Reset
@@ -174,24 +150,17 @@ With Monitor
     .ExportFarfieldSource "False"
     .Create
 End With
-
 Next
-
 '----------------------------------------------------------------------------
-
 With MeshSettings
      .SetMeshType "Hex"
      .Set "Version", 1%
 End With
-
 With Mesh
      .MeshType "PBA"
 End With
-
 'set the solver type
 ChangeSolverType("HF Time Domain")
-
-
 
 '@ define material: Copper (annealed)
 
@@ -244,14 +213,12 @@ With Material
 .Transparentoutline "False" 
 .Transparency "0" 
 .Create
-End With 
-
+End With
 
 '@ new component: component1
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Component.New "component1" 
-
+Component.New "component1"
 
 '@ define brick: component1:ground
 
@@ -262,7 +229,7 @@ With Brick
      .Component "component1" 
      .Material "Copper (annealed)" 
      .Xrange "-0.5*wgr", "0.5*wgr" 
-     .Yrange "-0.5*lg", "0.5*lg" 
+     .Yrange "-0.5*lg", "0" 
      .Zrange "0", "0.035" 
      .Create
 End With
@@ -304,8 +271,7 @@ With Material
 .Wireframe "False" 
 .Transparency "0" 
 .Create
-End With 
-
+End With
 
 '@ define brick: component1:substrate
 
@@ -321,7 +287,6 @@ With Brick
      .Create
 End With
 
-
 '@ define brick: component1:patch
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
@@ -335,7 +300,6 @@ With Brick
      .Zrange "ht+hs", "ht+hs+0.035" 
      .Create
 End With
-
 
 '@ define material: Nickel
 
@@ -388,8 +352,7 @@ With Material
 .Transparentoutline "False" 
 .Transparency "0" 
 .Create
-End With 
-
+End With
 
 '@ define brick: component1:empty space
 
@@ -405,11 +368,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:patch, component1:empty space
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:patch", "component1:empty space" 
+Solid.Subtract "component1:patch", "component1:empty space"
 
 '@ define brick: component1:feedline
 
@@ -425,17 +387,15 @@ With Brick
      .Create
 End With
 
-
 '@ boolean add shapes: component1:feedline, component1:patch
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Add "component1:feedline", "component1:patch" 
+Solid.Add "component1:feedline", "component1:patch"
 
 '@ pick face
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Pick.PickFaceFromId "component1:substrate", "3" 
-
+Pick.PickFaceFromId "component1:substrate", "3"
 
 '@ define port: 1
 
@@ -461,8 +421,7 @@ With Port
      .ZrangeAdd "ht+hs", "4*hs" 
      .SingleEnded "False" 
      .Create 
-End With 
-
+End With
 
 '@ define monitor: e-field (f=0.698)
 
@@ -477,8 +436,7 @@ With Monitor
      .UseSubvolume "False" 
      .SetSubvolume  "-183.04884138889",  "183.04884138889",  "-144.63784138889",  "144.63784138889",  "-43.237841388889",  "49.672841388889" 
      .Create 
-End With 
-
+End With
 
 '@ define monitor: e-field (f=3.6)
 
@@ -493,14 +451,12 @@ With Monitor
      .UseSubvolume "False" 
      .SetSubvolume  "-183.04884138889",  "183.04884138889",  "-144.63784138889",  "144.63784138889",  "-43.237841388889",  "49.672841388889" 
      .Create 
-End With 
-
+End With
 
 '@ define time domain solver parameters
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
 Mesh.SetCreator "High Frequency" 
-
 With Solver 
      .Method "Hexahedral"
      .CalculationType "TD-S"
@@ -517,5 +473,69 @@ With Solver
      .SuperimposePLWExcitation "False"
      .UseSensitivityAnalysis "False"
 End With
+
+'@ farfield plot options
+
+'[VERSION]2015.0|24.0.2|20150116[/VERSION]
+With FarfieldPlot 
+     .Plottype "3D" 
+     .Vary "angle1" 
+     .Theta "90" 
+     .Phi "90" 
+     .Step "5" 
+     .Step2 "5" 
+     .SetLockSteps "True" 
+     .SetPlotRangeOnly "False" 
+     .SetThetaStart "0" 
+     .SetThetaEnd "180" 
+     .SetPhiStart "0" 
+     .SetPhiEnd "360" 
+     .SetTheta360 "False" 
+     .SymmetricRange "False" 
+     .SetTimeDomainFF "False" 
+     .SetFrequency "-1" 
+     .SetTime "0" 
+     .SetColorByValue "True" 
+     .DrawStepLines "False" 
+     .DrawIsoLongitudeLatitudeLines "False" 
+     .ShowStructure "False" 
+     .SetStructureTransparent "False" 
+     .SetFarfieldTransparent "False" 
+     .SetSpecials "enablepolarextralines" 
+     .SetPlotMode "Directivity" 
+     .Distance "1" 
+     .UseFarfieldApproximation "True" 
+     .SetScaleLinear "False" 
+     .SetLogRange "40" 
+     .SetLogNorm "0" 
+     .DBUnit "0" 
+     .EnableFixPlotMaximum "False" 
+     .SetFixPlotMaximumValue "1" 
+     .SetInverseAxialRatio "False" 
+     .SetAxesType "user" 
+     .SetAntennaType "unknown" 
+     .Phistart "1.000000e+000", "0.000000e+000", "0.000000e+000" 
+     .Thetastart "0.000000e+000", "0.000000e+000", "1.000000e+000" 
+     .PolarizationVector "0.000000e+000", "1.000000e+000", "0.000000e+000" 
+     .SetCoordinateSystemType "spherical" 
+     .SetAutomaticCoordinateSystem "True" 
+     .SetPolarizationType "Linear" 
+     .SlantAngle 0.000000e+000 
+     .Origin "bbox" 
+     .Userorigin "0.000000e+000", "0.000000e+000", "0.000000e+000" 
+     .SetUserDecouplingPlane "False" 
+     .UseDecouplingPlane "False" 
+     .DecouplingPlaneAxis "X" 
+     .DecouplingPlanePosition "0.000000e+000" 
+     .LossyGround "False" 
+     .GroundEpsilon "1" 
+     .GroundKappa "0" 
+     .EnablePhaseCenterCalculation "False" 
+     .SetPhaseCenterAngularLimit "3.000000e+001" 
+     .SetPhaseCenterComponent "boresight" 
+     .SetPhaseCenterPlane "both" 
+     .ShowPhaseCenter "True" 
+     .StoreSettings
+End With 
 
 
