@@ -535,7 +535,7 @@ With FarfieldPlot
      .SetPhaseCenterPlane "both" 
      .ShowPhaseCenter "True" 
      .StoreSettings
-End With 
+End With
 
 '@ define brick: component1:n=1
 
@@ -551,11 +551,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:feedline, component1:n=1
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:feedline", "component1:n=1" 
+Solid.Subtract "component1:feedline", "component1:n=1"
 
 '@ define brick: component1:n=1 righttop
 
@@ -571,11 +570,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:feedline, component1:n=1 righttop
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:feedline", "component1:n=1 righttop" 
+Solid.Subtract "component1:feedline", "component1:n=1 righttop"
 
 '@ define brick: component1:n=1 left up
 
@@ -591,11 +589,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:feedline, component1:n=1 left up
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:feedline", "component1:n=1 left up" 
+Solid.Subtract "component1:feedline", "component1:n=1 left up"
 
 '@ define brick: component1:solid1
 
@@ -610,7 +607,6 @@ With Brick
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
-
 
 '@ boolean subtract shapes: component1:feedline, component1:solid1
 

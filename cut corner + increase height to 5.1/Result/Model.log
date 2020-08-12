@@ -5,7 +5,7 @@ lowest frequency of interest.
 
 --------------------------------------------------------------------------------
 
-Solver started at: 01:14 PM Tuesday, 11. August 2020
+Solver started at: 09:40 AM Wednesday, 12. August 2020
 
   Module:  Time Domain: S-Parameter (Win 64)
   Version: 2015.0 Release from 2015-01-16 (change 344899)
@@ -78,14 +78,14 @@ Port: 1
 
   -------------------------------- F-Calc 1.8 --------------------------------
   Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
-  1      1      QTEM        218           1.81e-008     83.9          ---
+  1      1      QTEM        221           5.01e-008     88.7          ---
   ----------------------------------------------------------------------------
 
 Field update statistics:
 
-  Number of components in total: 	1502483
-  Number of lossy metal components:	35784
-  Number of disp. elements:		83990
+  Number of components in total: 	1581484
+  Number of lossy metal components:	36552
+  Number of disp. elements:		107213
 
 Subcycling state:      Automatically deactivated
 
@@ -94,11 +94,7 @@ Subcycling state:      Automatically deactivated
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-*** Warning ***
-
-Maximum simulation time reached, solver stopped.
-Please note that the steady state energy criterion has not been satisfied.
-More...
+Steady state energy criterion met, solver finished successfully.
 
 --------------------------------------------------------------------------------
 Frequency domain results normalized to default signal.
@@ -109,8 +105,8 @@ Frequency domain results normalized to default signal.
                       Peak memory used (kB)         Free physical memory (kB) 
                                                     At begin     Minimum      
   ----------------------------------------------------------------------------
-  Matrices calc.      408316                        9186628      8822920      
-  Solver run total    536156                        9220616      8611264      
+  Matrices calc.      409508                        8707128      8451352      
+  Solver run total    555016                        8831012      8240268      
   ----------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
@@ -122,33 +118,33 @@ Solver Statistics:
      Number of CPU threads:             4
      hardware info:                  	hardware acceleration not activated
 
-  Number of mesh cells:             	242880
+  Number of mesh cells:             	255875
   Excitation duration:              	9.87374652e-001 ns 
   Calculation time for excitation:  	4      	s
-  Number of calculated pulse widths:	19.9989 
+  Number of calculated pulse widths:	19.6262 
   Steady state accuracy limit:      	-30	dB 
-  Simulated number of time steps:   	8923   
-  Maximum number of time steps:     	8923   
+  Simulated number of time steps:   	8484   
+  Maximum number of time steps:     	8645   
   Time step width:
-     without subcycles:             	2.21297356e-003 ns
-     used:                          	2.21297356e-003 ns
+     without subcycles:             	2.28410878e-003 ns
+     used:                          	2.28410878e-003 ns
 
-  Matrix calculation time:          	15     	s
+  Matrix calculation time:          	16     	s
   Solver setup time:                	4      	s
   Solver loop time:                 	68     	s
-  Solver post processing time:      	16     	s
+  Solver post processing time:      	15     	s
                                     	------------
   Total solver time:                	103    	s  ( = 0 h, 1 m, 43 s )
 
 --------------------------------------------------------------------------------
 
-  Adaptive port meshing time:       	44     	s
+  Adaptive port meshing time:       	45     	s
   Total solver time (all cycles):   	103    	s  ( = 0 h, 1 m, 43 s )
                                     	------------
-  Total simulation time:            	147    	s  ( = 0 h, 2 m, 27 s )
+  Total simulation time:            	148    	s  ( = 0 h, 2 m, 28 s )
 
 --------------------------------------------------------------------------------
-Solver finished at: 01:16 PM Tuesday, 11. August 2020
+Solver finished at: 09:42 AM Wednesday, 12. August 2020
 
 
 --------------------------------------------------------------------------------

@@ -1,0 +1,19 @@
+[Version]
+2
+[Author]
+WCC
+[Mesh Cells]
+324,000
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Time Domain: S-Parameter
+[Modeler Unique ID]
+5:cut corner n=2+ increase height to 8+ inset feed 24+full ground.cst?ac037d514fd4b195278e86a2019e082a?15019:numberofparameters=10:port=1>mode=1>zre=0>zim=0:::l1?fi?gpf?hs?ht?l?lg?w?wf?wgr
+[Comment]
