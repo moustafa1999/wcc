@@ -1,0 +1,221 @@
+Defined reference frequency for open boundary condition (1.8 GHz) is larger
+than the lowest relevant system frequency (monitor at 0.698 GHz).
+Please check open boundary settings to ensure accurate monitor results for the
+lowest frequency of interest.
+
+--------------------------------------------------------------------------------
+Build version: 2015.0 Release from 2015-01-16 (change 344899)
+
+Starting adaptive port meshing.
+
+--------------------------------------------------------------------------------
+Mode calculation for port 1:
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Number of mesh faces filled with PEC due to fill limit restrictions: 0
+
+--------------------------------------------------------------------------------
+Port mode solver: Detected dispersive material(s) at port 1. 
+Using a constant approximation of dispersive material(s) at 1.8GHz and
+neglecting loss terms. 
+
+--------------------------------------------------------------------------------
+  -------------------------------- F-Calc 1.8 --------------------------------
+  Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+  1      1      QTEM        205           2.46e-009     48            ---
+  ----------------------------------------------------------------------------
+
+Pass 1 successfully completed. 
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Number of mesh faces filled with PEC due to fill limit restrictions: 0
+
+--------------------------------------------------------------------------------
+  -------------------------------- F-Calc 1.8 --------------------------------
+  Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+  1      1      QTEM        208           3.77e-011     48.6          ---
+  ----------------------------------------------------------------------------
+
+Pass 2 successfully completed. Delta (Line Imp.): 1.319222%
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Number of mesh faces filled with PEC due to fill limit restrictions: 0
+
+--------------------------------------------------------------------------------
+  -------------------------------- F-Calc 1.8 --------------------------------
+  Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+  1      1      QTEM        229           17.2          49            ---
+  ----------------------------------------------------------------------------
+
+Pass 3 successfully completed. Delta (Line Imp.): 0.686954%
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Number of mesh faces filled with PEC due to fill limit restrictions: 0
+
+--------------------------------------------------------------------------------
+  -------------------------------- F-Calc 1.8 --------------------------------
+  Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+  1      1      QTEM        254           1.82e-013     49.1          ---
+  ----------------------------------------------------------------------------
+
+Pass 4 successfully completed. Delta (Line Imp.): 0.253052%
+Adaptive port meshing finished. 
+
+--------------------------------------------------------------------------------
+
+Solver started at: 11:45 AM Sunday, 16. August 2020
+
+  Module:  Time Domain: S-Parameter (Win 64)
+  Version: 2015.0 Release from 2015-01-16 (change 344899)
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+======================================================================
+ Solver cycle: 1
+======================================================================
+
+Stimulation at port 1 (mode 1) 
+
+
+--------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: mm
+  Frequency:  GHz
+  Time:       ns
+
+--------------------------------------------------------------------------------
+Number of mesh faces filled with PEC due to fill limit restrictions: 0
+
+--------------------------------------------------------------------------------
+Mesh statistics:
+
+   Hexahedral mesh type: FPBA [accuracy enhancement is enabled]
+
+   Parallelization type: domain decomposition
+      Number of parallel working threads: 4
+      Number of calculation domains used: 4
+
+
+--------------------------------------------------------------------------------
+Port mode solver: Detected dispersive material(s) at port 1. 
+Using a constant approximation of dispersive material(s) at 1.8GHz and
+neglecting loss terms. 
+
+--------------------------------------------------------------------------------
+Boundary conditions: 
+
+  YZsymmetry: none
+  XZsymmetry: none
+  XYsymmetry: none
+
+  Xmin: expanded open, 4 Layer, depth 33.3103 mm
+  Xmax: expanded open, 4 Layer, depth 33.3103 mm
+
+  Ymin: expanded open, 4 Layer, depth 33.3103 mm
+  Ymax: expanded open, 4 Layer, depth 33.3103 mm
+
+  Zmin: expanded open, 4 Layer, depth 30.708 mm
+  Zmax: expanded open, 4 Layer, depth 33.3103 mm
+
+  PML-Type: Convolution PML
+
+--------------------------------------------------------------------------------
+Frequency settings: 
+
+  Fmin:    0
+  Fmax:    3.6
+  Nfsteps: 1001
+
+--------------------------------------------------------------------------------
+Waveguide boundaries:
+
+Port: 1
+
+  -------------------------------- F-Calc 1.8 --------------------------------
+  Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+  1      1      QTEM        204           4.49e-009     49.1          ---
+  ----------------------------------------------------------------------------
+
+Field update statistics:
+
+  Number of components in total: 	1682973
+  Number of lossy metal components:	35362
+  Number of disp. elements:		66662
+
+Subcycling state:      Automatically deactivated
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Steady state energy criterion met, solver finished successfully.
+
+--------------------------------------------------------------------------------
+Frequency domain results normalized to default signal.
+
+--------------------------------------------------------------------------------
+
+  ----------------------------------------------------------------------------
+                      Peak memory used (kB)         Free physical memory (kB) 
+                                                    At begin     Minimum      
+  ----------------------------------------------------------------------------
+  Matrices calc.      444244                        7646180      7213760      
+  Solver run total    540500                        7681392      6914120      
+  ----------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Solver Statistics:
+
+  Hardware:
+     Computer name:                 	DESKTOP-S1T4ESL 
+
+     Number of CPU threads:             4
+     hardware info:                  	hardware acceleration not activated
+
+  Number of mesh cells:             	271320
+  Excitation duration:              	9.87374652e-001 ns 
+  Calculation time for excitation:  	7      	s
+  Number of calculated pulse widths:	18.4733 
+  Steady state accuracy limit:      	-30	dB 
+  Simulated number of time steps:   	16684  
+  Maximum number of time steps:     	18062  
+  Time step width:
+     without subcycles:             	1.09327005e-003 ns
+     used:                          	1.09327005e-003 ns
+
+  Matrix calculation time:          	19     	s
+  Solver setup time:                	5      	s
+  Solver loop time:                 	145    	s
+  Solver post processing time:      	23     	s
+                                    	------------
+  Total solver time:                	192    	s  ( = 0 h, 3 m, 12 s )
+
+--------------------------------------------------------------------------------
+
+  Adaptive port meshing time:       	36     	s
+  Total solver time (all cycles):   	192    	s  ( = 0 h, 3 m, 12 s )
+                                    	------------
+  Total simulation time:            	228    	s  ( = 0 h, 3 m, 48 s )
+
+--------------------------------------------------------------------------------
+Solver finished at: 11:48 AM Sunday, 16. August 2020
+
+
+--------------------------------------------------------------------------------
+Creating parametric 1D results.
+
+--------------------------------------------------------------------------------

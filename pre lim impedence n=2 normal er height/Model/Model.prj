@@ -1,0 +1,19 @@
+[Version]
+2
+[Author]
+WCC
+[Mesh Cells]
+
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Unavailable
+[Modeler Unique ID]
+5:pre lim impedence n=2 normal er height.cst?614b97873b9f7a9a8da581b3f6b9f363?16366:numberofparameters=10:port=1>mode=1>zre=0>zim=0:::fi?gpf?hs?ht?l?l1?lg?w?wf?wgr
+[Comment]

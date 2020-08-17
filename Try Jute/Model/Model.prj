@@ -1,0 +1,19 @@
+[Version]
+2
+[Author]
+WCC
+[Mesh Cells]
+
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Unknown
+[Modeler Unique ID]
+5:try jute.cst?44ea16efa1fc467d72bfa59bf6fccc97?7941:numberofparameters=10:port=1>mode=1>zre=0>zim=0:::lg?ts?ls?ws?gap?lf?wf?t?l?w
+[Comment]

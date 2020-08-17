@@ -1,0 +1,19 @@
+[Version]
+2
+[Author]
+WCC
+[Mesh Cells]
+196,620
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Time Domain: S-Parameter
+[Modeler Unique ID]
+5:pre lim impedence n=1, normal er height.cst?14f9ab8e0a684ac995d5e381630a491c?14538:numberofparameters=9:port=1>mode=1>zre=0>zim=0:::fi?gpf?hs?ht?l?lg?w?wf?wgr
+[Comment]

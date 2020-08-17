@@ -1,0 +1,19 @@
+[Version]
+2
+[Author]
+WCC
+[Mesh Cells]
+271,320
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Time Domain: S-Parameter
+[Modeler Unique ID]
+5:cut corner n=4 , inset 27.5.cst?93f91550ec011046bcc79897b8232b9c?19263:numberofparameters=12:port=1>mode=1>zre=0>zim=0:::l3?l2?fi?gpf?hs?ht?l?l1?lg?w?wf?wgr
+[Comment]
