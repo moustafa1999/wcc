@@ -570,7 +570,6 @@ With Brick
      .Create
 End With
 
-
 '@ boolean add shapes: component1:solid1, component1:feed line
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
@@ -589,7 +588,6 @@ With Brick
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
-
 
 '@ boolean subtract shapes: component1:solid1, component1:left bottom
 
@@ -610,7 +608,6 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=1 top left
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
@@ -629,7 +626,6 @@ With Brick
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
-
 
 '@ boolean subtract shapes: component1:solid1, component1:top right
 
@@ -669,7 +665,6 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:bottom right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
@@ -688,7 +683,6 @@ With Brick
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
-
 
 '@ boolean subtract shapes: component1:solid1, component1:n=2 bottom left
 
@@ -709,7 +703,6 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=2 bottom right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
@@ -728,7 +721,6 @@ With Brick
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
-
 
 '@ boolean subtract shapes: component1:solid1, component1:top left
 
@@ -749,7 +741,6 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:top right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
@@ -768,7 +759,6 @@ With Brick
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
-
 
 '@ boolean subtract shapes: component1:solid1, component1:n3 bottom left
 
@@ -789,7 +779,6 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=3 bottom right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
@@ -808,7 +797,6 @@ With Brick
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
-
 
 '@ boolean subtract shapes: component1:solid1, component1:n=3 top left
 
@@ -829,7 +817,6 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=3 top right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
@@ -848,7 +835,6 @@ With Brick
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
-
 
 '@ change material: component1:n=4 bottom left to: Nickel
 
@@ -874,7 +860,6 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=4  bottom right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
@@ -893,7 +878,6 @@ With Brick
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
-
 
 '@ boolean subtract shapes: component1:solid1, component1:n=4 top right
 
@@ -914,11 +898,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=4 top right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=4 top right" 
+Solid.Subtract "component1:solid1", "component1:n=4 top right"
 
 '@ define brick: component1:N=5 bottom left
 
@@ -934,7 +917,6 @@ With Brick
      .Create
 End With
 
-
 '@ define brick: component1:n=5 bottom right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
@@ -948,7 +930,6 @@ With Brick
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
-
 
 '@ define brick: component1:n=5 top left
 
@@ -964,7 +945,6 @@ With Brick
      .Create
 End With
 
-
 '@ define brick: component1:n=5 top right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
@@ -979,7 +959,6 @@ With Brick
      .Create
 End With
 
-
 '@ paste structure data: 1
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
@@ -991,9 +970,7 @@ With SAT
      .ScaleToUnit "True" 
      .Curves "False" 
      .Read 
-End With 
-
-
+End With
 
 '@ paste structure data: 2
 
@@ -1006,9 +983,7 @@ With SAT
      .ScaleToUnit "True" 
      .Curves "False" 
      .Read 
-End With 
-
-
+End With
 
 '@ paste structure data: 3
 
@@ -1021,9 +996,7 @@ With SAT
      .ScaleToUnit "True" 
      .Curves "False" 
      .Read 
-End With 
-
-
+End With
 
 '@ paste structure data: 4
 
@@ -1036,53 +1009,47 @@ With SAT
      .ScaleToUnit "True" 
      .Curves "False" 
      .Read 
-End With 
-
-
+End With
 
 '@ change material: component1:N=5 bottom left to: Nickel
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.ChangeMaterial "component1:N=5 bottom left", "Nickel" 
-
+Solid.ChangeMaterial "component1:N=5 bottom left", "Nickel"
 
 '@ change material: component1:n=5 bottom right to: Nickel
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.ChangeMaterial "component1:n=5 bottom right", "Nickel" 
-
+Solid.ChangeMaterial "component1:n=5 bottom right", "Nickel"
 
 '@ change material: component1:n=5 top left to: Nickel
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.ChangeMaterial "component1:n=5 top left", "Nickel" 
-
+Solid.ChangeMaterial "component1:n=5 top left", "Nickel"
 
 '@ change material: component1:n=5 top right to: Nickel
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.ChangeMaterial "component1:n=5 top right", "Nickel" 
-
+Solid.ChangeMaterial "component1:n=5 top right", "Nickel"
 
 '@ boolean subtract shapes: component1:solid1, component1:N=5 bottom left
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:N=5 bottom left" 
+Solid.Subtract "component1:solid1", "component1:N=5 bottom left"
 
 '@ boolean subtract shapes: component1:solid1, component1:n=5 top right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=5 top right" 
+Solid.Subtract "component1:solid1", "component1:n=5 top right"
 
 '@ boolean subtract shapes: component1:solid1, component1:n=5 top left
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=5 top left" 
+Solid.Subtract "component1:solid1", "component1:n=5 top left"
 
 '@ boolean subtract shapes: component1:solid1, component1:n=5 bottom right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=5 bottom right" 
+Solid.Subtract "component1:solid1", "component1:n=5 bottom right"
 
 '@ delete shapes
 
@@ -1090,8 +1057,7 @@ Solid.Subtract "component1:solid1", "component1:n=5 bottom right"
 Solid.Delete "component1:N=5 bottom left_1" 
 Solid.Delete "component1:n=5 bottom right_1" 
 Solid.Delete "component1:n=5 top left_1" 
-Solid.Delete "component1:n=5 top right_1" 
-
+Solid.Delete "component1:n=5 top right_1"
 
 '@ define brick: component1:n=6 bottom left
 
@@ -1107,11 +1073,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=6 bottom left
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=6 bottom left" 
+Solid.Subtract "component1:solid1", "component1:n=6 bottom left"
 
 '@ define brick: component1:n=6 bottom right
 
@@ -1127,11 +1092,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=6 bottom right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=6 bottom right" 
+Solid.Subtract "component1:solid1", "component1:n=6 bottom right"
 
 '@ define brick: component1:n=6 TOP RIGHT
 
@@ -1147,11 +1111,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=6 TOP RIGHT
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=6 TOP RIGHT" 
+Solid.Subtract "component1:solid1", "component1:n=6 TOP RIGHT"
 
 '@ define brick: component1:n=6 top right
 
@@ -1167,11 +1130,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=6 top right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=6 top right" 
+Solid.Subtract "component1:solid1", "component1:n=6 top right"
 
 '@ define brick: component1:n=7 bottom left
 
@@ -1187,11 +1149,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=7 bottom left
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=7 bottom left" 
+Solid.Subtract "component1:solid1", "component1:n=7 bottom left"
 
 '@ define brick: component1:n=7 bottom right
 
@@ -1207,11 +1168,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=7 bottom right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=7 bottom right" 
+Solid.Subtract "component1:solid1", "component1:n=7 bottom right"
 
 '@ define brick: component1:n=7 top left
 
@@ -1227,11 +1187,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=7 top left
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=7 top left" 
+Solid.Subtract "component1:solid1", "component1:n=7 top left"
 
 '@ define brick: component1:n=7 top right
 
@@ -1247,11 +1206,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=7 top right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=7 top right" 
+Solid.Subtract "component1:solid1", "component1:n=7 top right"
 
 '@ define brick: component1:n=8 bottom left
 
@@ -1267,11 +1225,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=8 bottom left
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=8 bottom left" 
+Solid.Subtract "component1:solid1", "component1:n=8 bottom left"
 
 '@ define brick: component1:n=8 bottom right
 
@@ -1287,11 +1244,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=8 bottom right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=8 bottom right" 
+Solid.Subtract "component1:solid1", "component1:n=8 bottom right"
 
 '@ define brick: component1:n=8 top left
 
@@ -1307,11 +1263,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=8 top left
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=8 top left" 
+Solid.Subtract "component1:solid1", "component1:n=8 top left"
 
 '@ define brick: component1:n=8 top right
 
@@ -1327,11 +1282,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=8 top right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=8 top right" 
+Solid.Subtract "component1:solid1", "component1:n=8 top right"
 
 '@ define brick: component1:n=9 bottom left
 
@@ -1347,11 +1301,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=9 bottom left
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=9 bottom left" 
+Solid.Subtract "component1:solid1", "component1:n=9 bottom left"
 
 '@ define brick: component1:n=9 bottom right
 
@@ -1367,11 +1320,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=9 bottom right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=9 bottom right" 
+Solid.Subtract "component1:solid1", "component1:n=9 bottom right"
 
 '@ define brick: component1:n=9 top left
 
@@ -1387,11 +1339,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=9 top left
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=9 top left" 
+Solid.Subtract "component1:solid1", "component1:n=9 top left"
 
 '@ define brick: component1:n=9 top right
 
@@ -1407,11 +1358,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=9 top right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=9 top right" 
+Solid.Subtract "component1:solid1", "component1:n=9 top right"
 
 '@ define brick: component1:n=10 bottom left
 
@@ -1427,11 +1377,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=10 bottom left
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=10 bottom left" 
+Solid.Subtract "component1:solid1", "component1:n=10 bottom left"
 
 '@ define brick: component1:n=10 bottom rigth
 
@@ -1447,11 +1396,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=10 bottom rigth
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=10 bottom rigth" 
+Solid.Subtract "component1:solid1", "component1:n=10 bottom rigth"
 
 '@ define brick: component1:n=10 top left
 
@@ -1467,11 +1415,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=10 top left
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=10 top left" 
+Solid.Subtract "component1:solid1", "component1:n=10 top left"
 
 '@ define brick: component1:n=10 top right
 
@@ -1487,23 +1434,20 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:solid1, component1:n=10 top right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:solid1", "component1:n=10 top right" 
+Solid.Subtract "component1:solid1", "component1:n=10 top right"
 
 '@ pick end point
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Pick.PickEndpointFromId "component1:solid1", "568" 
-
+Pick.PickEndpointFromId "component1:solid1", "568"
 
 '@ pick end point
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Pick.PickEndpointFromId "component1:solid1", "361" 
-
+Pick.PickEndpointFromId "component1:solid1", "361"
 
 '@ define curve line: curve1:line1
 
@@ -1519,22 +1463,18 @@ With Line
      .Create
 End With
 
-
 '@ delete curve: curve1
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Curve.DeleteCurve "curve1" 
-
+Curve.DeleteCurve "curve1"
 
 '@ switch working plane
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Plot.DrawWorkplane "false" 
-
+Plot.DrawWorkplane "false"
 
 '@ clear picks
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
 Pick.ClearAllPicks 
-
 

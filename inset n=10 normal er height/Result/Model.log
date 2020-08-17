@@ -1,0 +1,38 @@
+Defined reference frequency for open boundary condition (1.8 GHz) is larger
+than the lowest relevant system frequency (monitor at 0.698 GHz).
+Please check open boundary settings to ensure accurate monitor results for the
+lowest frequency of interest.
+
+--------------------------------------------------------------------------------
+
+Solver started at: 02:06 PM Monday, 17. August 2020
+
+  Module:  Time Domain: S-Parameter (Win 64)
+  Version: 2015.0 Release from 2015-01-16 (change 344899)
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: mm
+  Frequency:  GHz
+  Time:       ns
+
+--------------------------------------------------------------------------------
+Mesh statistics:
+
+   Hexahedral mesh type: FPBA [accuracy enhancement is enabled]
+
+   Parallelization type: none
+
+
+--------------------------------------------------------------------------------
+  Total matrix calculation time:            	8      	s
+
+--------------------------------------------------------------------------------
+Solver finished at: 02:07 PM Monday, 17. August 2020
+
+
+--------------------------------------------------------------------------------

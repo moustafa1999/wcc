@@ -1,0 +1,52 @@
+DESKTOP-S1T4ESL: <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                 2020 Aug 17 (Mon): 14:06:52
+                 <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                 
+DESKTOP-S1T4ESL: =======================================================================
+                 FPBA has been activated in order to calculate connectivity information.
+                 =======================================================================
+                 
+DESKTOP-S1T4ESL: ===============================
+                 Processing CAD model
+                 Version 2015.0 (build 20150116)
+                 2020 Aug 17 (Mon): 14:06:53
+                 ===============================
+                 
+DESKTOP-S1T4ESL: sssssssssssssssssssssssssssssssssss
+                 The point accuracy is set to 0.00%.
+                 sssssssssssssssssssssssssssssssssss
+                 
+==================================================================================================
+== CST Matrix Calculation Priority Log                                                          ==
+==================================================================================================
+ 
+Priorities are sorted in ascending order beginning with the lowest priority
+ 
+Priority:   3, shape   4: component1:substrate, material: FR-4 (lossy)
+Priority:   4, shape   1: component1:ground, material: Copper (annealed)
+Priority:   4, shape   2: component1:solid1, material: Copper (annealed)
+ 
+==================================================================================================
+ 
+DESKTOP-S1T4ESL: =======================
+                 Finished CAD processing
+                 =======================
+                 
+DESKTOP-S1T4ESL: ===============================
+                 Processing CAD model
+                 Version 2015.0 (build 20150116)
+                 2020 Aug 17 (Mon): 14:06:53
+                 ===============================
+                 
+DESKTOP-S1T4ESL: sssssssssssssssssssssssssssssssssss
+                 The point accuracy is set to 0.00%.
+                 sssssssssssssssssssssssssssssssssss
+                 
+DESKTOP-S1T4ESL: =======================
+                 Finished CAD processing
+                 =======================
+                 
+DESKTOP-S1T4ESL: >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                 2020 Aug 17 (Mon): 14:07:00
+                 >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                 

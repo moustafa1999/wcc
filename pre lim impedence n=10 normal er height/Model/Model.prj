@@ -13,7 +13,7 @@ HF Time Domain
 [Last Solver Type Abb]
 t
 [Results]
-Unavailable
+Time Domain: S-Parameter
 [Modeler Unique ID]
-5:pre lim impedence n=10 normal er height.cst?d96980a46495ea358cfe46fc85147335?34048:numberofparameters=18:port=1>mode=1>zre=0>zim=0:::l9?l8?l7?l6?l5?l4?fi?gpf?hs?ht?l?l1?l2?l3?lg?w?wf?wgr
+5:pre lim impedence n=10 normal er height.cst?d96980a46495ea358cfe46fc85147335?34048:numberofparameters=18:port=1>mode=1>zre=0>zim=0:::fi?gpf?hs?ht?l?l1?l2?l3?l4?l5?l6?l7?l8?l9?lg?w?wf?wgr
 [Comment]
