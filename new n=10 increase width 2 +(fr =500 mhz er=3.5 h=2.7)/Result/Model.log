@@ -1,0 +1,192 @@
+Defined reference frequency for open boundary condition (1.85 GHz) is larger
+than the lowest relevant system frequency (monitor at 0.9 GHz).
+Please check open boundary settings to ensure accurate monitor results for the
+lowest frequency of interest.
+
+--------------------------------------------------------------------------------
+Build version: 2015.0 Release from 2015-01-16 (change 344899)
+
+Starting adaptive port meshing.
+
+--------------------------------------------------------------------------------
+Mode calculation for port 1:
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Number of mesh faces filled with PEC due to fill limit restrictions: 0
+
+--------------------------------------------------------------------------------
+  ------------------------------- F-Calc 1.85 --------------------------------
+  Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+  1      1      UNDEF       653           6.93e-010     ---           ---
+  ----------------------------------------------------------------------------
+
+Pass 1 successfully completed. 
+Adaptive port meshing finished. 
+
+--------------------------------------------------------------------------------
+
+Solver started at: 11:41 AM Monday, 24. August 2020
+
+  Module:  Time Domain: S-Parameter (Win 64)
+  Version: 2015.0 Release from 2015-01-16 (change 344899)
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+======================================================================
+ Solver cycle: 1
+======================================================================
+
+Stimulation at port 1 (mode 1) 
+
+
+--------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: mm
+  Frequency:  GHz
+  Time:       ns
+
+--------------------------------------------------------------------------------
+Number of mesh faces filled with PEC due to fill limit restrictions: 0
+
+--------------------------------------------------------------------------------
+Mesh statistics:
+
+   Hexahedral mesh type: FPBA [accuracy enhancement is enabled]
+
+   Parallelization type: domain decomposition
+      Number of parallel working threads: 4
+      Number of calculation domains used: 4
+
+
+--------------------------------------------------------------------------------
+Boundary conditions: 
+
+  YZsymmetry: none
+  XZsymmetry: none
+  XYsymmetry: none
+
+  Xmin: expanded open, 4 Layer, depth 29.8528 mm
+  Xmax: expanded open, 4 Layer, depth 29.8528 mm
+
+  Ymin: expanded open, 4 Layer, depth 32.41 mm
+  Ymax: expanded open, 4 Layer, depth 32.41 mm
+
+  Zmin: expanded open, 4 Layer, depth 29.9081 mm
+  Zmax: expanded open, 4 Layer, depth 32.41 mm
+
+  PML-Type: Convolution PML
+
+--------------------------------------------------------------------------------
+Frequency settings: 
+
+  Fmin:    0
+  Fmax:    3.7
+  Nfsteps: 1001
+
+--------------------------------------------------------------------------------
+Waveguide boundaries:
+
+Port: 1
+
+  ------------------------------- F-Calc 1.85 --------------------------------
+  Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+  1      1      UNDEF       657           1.01e-008     ---           ---
+  ----------------------------------------------------------------------------
+
+  Using first order filter.
+
+--------------------------------------------------------------------------------
+  Using first order filter.
+
+--------------------------------------------------------------------------------
+*** Warning ***
+
+The following port mode is excited below its cutoff frequency: 1(1). 
+
+--------------------------------------------------------------------------------
+*** Warning ***
+
+The first mode at inhomogeneous port 1 is hybrid. This could lead to an
+inaccurate energy balance. Please check your structure. More...
+
+--------------------------------------------------------------------------------
+Field update statistics:
+
+  Number of components in total: 	2055833
+  Number of lossy metal components:	31905
+
+Subcycling state:      Automatically deactivated
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+*** Warning ***
+
+Maximum simulation time reached, solver stopped.
+Please note that the steady state energy criterion has not been satisfied.
+More...
+
+--------------------------------------------------------------------------------
+Frequency domain results normalized to default signal.
+
+--------------------------------------------------------------------------------
+
+  ----------------------------------------------------------------------------
+                      Peak memory used (kB)         Free physical memory (kB) 
+                                                    At begin     Minimum      
+  ----------------------------------------------------------------------------
+  Matrices calc.      428548                        12042128     11715416     
+  Solver run total    137364                        12155612     11730172     
+  ----------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Solver Statistics:
+
+  Hardware:
+     Computer name:                 	DESKTOP-S1T4ESL 
+
+     Number of CPU threads:             4
+     hardware info:                  	hardware acceleration not activated
+
+  Number of mesh cells:             	331660
+  Excitation duration:              	9.60688851e-001 ns 
+  Calculation time for excitation:  	3      	s
+  Number of calculated pulse widths:	19.9995 
+  Steady state accuracy limit:      	-30	dB 
+  Simulated number of time steps:   	9184   
+  Maximum number of time steps:     	9184   
+  Time step width:
+     without subcycles:             	2.09204329e-003 ns
+     used:                          	2.09204329e-003 ns
+
+  Matrix calculation time:          	15     	s
+  Solver setup time:                	3      	s
+  Solver loop time:                 	63     	s
+  Solver post processing time:      	0      	s
+                                    	------------
+  Total solver time:                	81     	s  ( = 0 h, 1 m, 21 s )
+
+--------------------------------------------------------------------------------
+
+  Adaptive port meshing time:       	3      	s
+  Total solver time (all cycles):   	82     	s  ( = 0 h, 1 m, 22 s )
+                                    	------------
+  Total simulation time:            	85     	s  ( = 0 h, 1 m, 25 s )
+
+--------------------------------------------------------------------------------
+Solver finished at: 11:42 AM Monday, 24. August 2020
+
+
+--------------------------------------------------------------------------------
+Creating parametric 1D results.
+
+--------------------------------------------------------------------------------

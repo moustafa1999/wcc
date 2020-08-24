@@ -3,7 +3,7 @@
 [Author]
 WCC
 [Mesh Cells]
-
+245,000
 [Mesh Type]
 Hexahedral
 [Last Problem Type]
@@ -13,7 +13,7 @@ HF Time Domain
 [Last Solver Type Abb]
 t
 [Results]
-Unavailable
+Time Domain: S-Parameter
 [Modeler Unique ID]
 5:cut corner n=2 , inset.cst?8eedecbf23732d882d8d7f1997c94182?15089:numberofparameters=10:port=1>mode=1>zre=0>zim=0:::fi?gpf?hs?ht?l?l1?lg?w?wf?wgr
 [Comment]

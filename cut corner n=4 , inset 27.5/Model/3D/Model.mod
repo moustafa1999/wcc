@@ -551,7 +551,6 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:feedline, component1:n=1
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
@@ -570,7 +569,6 @@ With Brick
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
-
 
 '@ boolean subtract shapes: component1:feedline, component1:n=1 righttop
 
@@ -591,7 +589,6 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:feedline, component1:n=1 left up
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
@@ -610,7 +607,6 @@ With Brick
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
-
 
 '@ boolean subtract shapes: component1:feedline, component1:solid1
 
@@ -631,7 +627,6 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:feedline, component1:n=2
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
@@ -650,7 +645,6 @@ With Brick
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
-
 
 '@ boolean subtract shapes: component1:feedline, component1:n=2 bottom right
 
@@ -671,7 +665,6 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:feedline, component1:n=2 top left
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
@@ -691,11 +684,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:feedline, component1:n=2 top right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:feedline", "component1:n=2 top right" 
+Solid.Subtract "component1:feedline", "component1:n=2 top right"
 
 '@ define brick: component1:n=3 bottom lef
 
@@ -711,11 +703,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:feedline, component1:n=3 bottom lef
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:feedline", "component1:n=3 bottom lef" 
+Solid.Subtract "component1:feedline", "component1:n=3 bottom lef"
 
 '@ define brick: component1:n=3 bottom right
 
@@ -731,11 +722,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:feedline, component1:n=3 bottom right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:feedline", "component1:n=3 bottom right" 
+Solid.Subtract "component1:feedline", "component1:n=3 bottom right"
 
 '@ define brick: component1:top left n=3
 
@@ -751,11 +741,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:feedline, component1:top left n=3
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:feedline", "component1:top left n=3" 
+Solid.Subtract "component1:feedline", "component1:top left n=3"
 
 '@ define brick: component1:top right
 
@@ -771,11 +760,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:feedline, component1:top right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:feedline", "component1:top right" 
+Solid.Subtract "component1:feedline", "component1:top right"
 
 '@ define brick: component1:n=4 bottom left
 
@@ -790,13 +778,11 @@ With Brick
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
-
 
 '@ delete shape: component1:n=4 bottom left
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Delete "component1:n=4 bottom left" 
-
+Solid.Delete "component1:n=4 bottom left"
 
 '@ define brick: component1:n=4 bottom left
 
@@ -812,11 +798,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:feedline, component1:n=4 bottom left
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:feedline", "component1:n=4 bottom left" 
+Solid.Subtract "component1:feedline", "component1:n=4 bottom left"
 
 '@ define brick: component1:n=4 bottom right
 
@@ -832,11 +817,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:feedline, component1:n=4 bottom right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:feedline", "component1:n=4 bottom right" 
+Solid.Subtract "component1:feedline", "component1:n=4 bottom right"
 
 '@ define brick: component1:n=4 top left
 
@@ -852,11 +836,10 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:feedline, component1:n=4 top left
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Solid.Subtract "component1:feedline", "component1:n=4 top left" 
+Solid.Subtract "component1:feedline", "component1:n=4 top left"
 
 '@ define brick: component1:n=4 top right
 
@@ -871,7 +854,6 @@ With Brick
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
-
 
 '@ boolean subtract shapes: component1:feedline, component1:n=4 top right
 

@@ -1,0 +1,127 @@
+DESKTOP-S1T4ESL: <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                 2020 Aug 24 (Mon): 08:39:19
+                 <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                 
+DESKTOP-S1T4ESL: ===============================
+                 Processing CAD model
+                 Version 2015.0 (build 20150116)
+                 2020 Aug 24 (Mon): 08:39:19
+                 ===============================
+                 
+DESKTOP-S1T4ESL: sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                 The point accuracy has been changed from 0.00% to 26.00% after complexity analysis.
+                 sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                 
+DESKTOP-S1T4ESL: ssssssssssssssssssssssssssssssssssss
+                 The point accuracy is set to 26.00%.
+                 ssssssssssssssssssssssssssssssssssss
+                 
+==================================================================================================
+== CST Matrix Calculation Priority Log                                                          ==
+==================================================================================================
+ 
+Priorities are sorted in ascending order beginning with the lowest priority
+ 
+Priority:   3, shape   3: component1:SUBSTRATE, material: FR-4 (loss free)
+Priority:   4, shape   1: component1:GROUND, material: Copper (annealed)
+Priority:   4, shape   2: component1:PATCH, material: Copper (annealed)
+Priority:   4, shape   4: component1:feed1, material: Copper (annealed)
+ 
+==================================================================================================
+ 
+DESKTOP-S1T4ESL: =======================
+                 Finished CAD processing
+                 =======================
+                 
+DESKTOP-S1T4ESL: >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                 2020 Aug 24 (Mon): 08:39:20
+                 >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                 
+DESKTOP-S1T4ESL: <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                 2020 Aug 24 (Mon): 08:39:32
+                 <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                 
+DESKTOP-S1T4ESL: ======================
+                 Mesher selection: FPBA
+                 ======================
+                 
+DESKTOP-S1T4ESL: ===============================
+                 Processing CAD model
+                 Version 2015.0 (build 20150116)
+                 2020 Aug 24 (Mon): 08:39:32
+                 ===============================
+                 
+DESKTOP-S1T4ESL: sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                 The point accuracy has been changed from 0.00% to 26.00% after complexity analysis.
+                 sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                 
+DESKTOP-S1T4ESL: ssssssssssssssssssssssssssssssssssss
+                 The point accuracy is set to 26.00%.
+                 ssssssssssssssssssssssssssssssssssss
+                 
+DESKTOP-S1T4ESL: =======================
+                 Finished CAD processing
+                 =======================
+                 
+DESKTOP-S1T4ESL: 1xN000: <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                         2020 Aug 24 (Mon): 08:39:33
+                         <<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+DESKTOP-S1T4ESL: 1xN000: =======================================
+                         Matrix computation (FPBA)
+                         	[FPBA accuracy enhancement is enabled]
+                         Version 2015.0 (build 20150116)
+                         2020 Aug 24 (Mon): 08:39:33
+                         =======================================
+
+DESKTOP-S1T4ESL: 1xN000: sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                         The point accuracy has been changed from 0.00% to 26.00% after complexity analysis.
+                         sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+
+DESKTOP-S1T4ESL: 1xN000: ssssssssssssssssssssssssssssssssssss
+                         The point accuracy is set to 26.00%.
+                         ssssssssssssssssssssssssssssssssssss
+
+DESKTOP-S1T4ESL: 1xN000: ==================================
+                         Finished matrix computation (FPBA)
+                         ==================================
+
+DESKTOP-S1T4ESL: 1xN000: >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                         2020 Aug 24 (Mon): 08:39:38
+                         >>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+DESKTOP-S1T4ESL: 1xN001: <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                         2020 Aug 24 (Mon): 08:39:33
+                         <<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+DESKTOP-S1T4ESL: 1xN001: =======================================
+                         Matrix computation (FPBA)
+                         	[FPBA accuracy enhancement is enabled]
+                         Version 2015.0 (build 20150116)
+                         2020 Aug 24 (Mon): 08:39:33
+                         =======================================
+
+DESKTOP-S1T4ESL: 1xN001: sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                         The point accuracy has been changed from 0.00% to 26.00% after complexity analysis.
+                         sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+
+DESKTOP-S1T4ESL: 1xN001: ssssssssssssssssssssssssssssssssssss
+                         The point accuracy is set to 26.00%.
+                         ssssssssssssssssssssssssssssssssssss
+
+DESKTOP-S1T4ESL: 1xN001: ==================================
+                         Finished matrix computation (FPBA)
+                         ==================================
+
+DESKTOP-S1T4ESL: 1xN001: >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                         2020 Aug 24 (Mon): 08:39:42
+                         >>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+DESKTOP-S1T4ESL: >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                 2020 Aug 24 (Mon): 08:39:44
+                 >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                 

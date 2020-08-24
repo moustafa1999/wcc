@@ -551,7 +551,6 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:feedline, component1:n=1
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
@@ -570,7 +569,6 @@ With Brick
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
-
 
 '@ boolean subtract shapes: component1:feedline, component1:n=1 righttop
 
@@ -591,7 +589,6 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:feedline, component1:n=1 left up
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
@@ -610,7 +607,6 @@ With Brick
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
-
 
 '@ boolean subtract shapes: component1:feedline, component1:solid1
 
@@ -631,7 +627,6 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:feedline, component1:n=2
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
@@ -651,7 +646,6 @@ With Brick
      .Create
 End With
 
-
 '@ boolean subtract shapes: component1:feedline, component1:n=2 bottom right
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
@@ -670,7 +664,6 @@ With Brick
      .Zrange "ht+hs", "ht+hs+ht" 
      .Create
 End With
-
 
 '@ boolean subtract shapes: component1:feedline, component1:n=2 top left
 
