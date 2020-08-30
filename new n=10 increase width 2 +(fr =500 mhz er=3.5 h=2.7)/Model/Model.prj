@@ -15,5 +15,5 @@ t
 [Results]
 Time Domain: S-Parameter
 [Modeler Unique ID]
-5:new n=10 increase width 2 +(fr =500 mhz er=3.5 h=2.7).cst?382b7e2039dda3b653ba78289c1b9b53?24110:numberofparameters=10:port=1>mode=1>zre=0>zim=0:::l1?lf?lg?lp?ls?w1?wf?wp?ws?n
+5:new n=10 increase width 2 +(fr =500 mhz er=3.5 h=2.7).cst?f2cbc79d00f076d1da38b2e10bbba417?24110:numberofparameters=10:port=1>mode=1>zre=0>zim=0:::l1?lf?lg?lp?ls?w1?wf?wp?ws?n
 [Comment]

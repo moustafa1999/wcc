@@ -1,0 +1,19 @@
+[Version]
+2
+[Author]
+WCC
+[Mesh Cells]
+283,560
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Time Domain: S-Parameter
+[Modeler Unique ID]
+5:new n=10 increase width 2 +length (fr=550 h=2.5 er=3.5).cst?456d2671cd2f332895db1378523013ff?25747:numberofparameters=10:port=1>mode=1>zre=0>zim=0:::l1?lf?lg?lp?ls?w1?wf?wp?ws?n
+[Comment]

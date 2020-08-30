@@ -195,7 +195,7 @@ With Brick
      .Material "FR-4 (loss free)" 
      .Xrange "-Ws/2", "Ws/2" 
      .Yrange "-Ls/2", "-Ls/2+Lf+Lp+Lf" 
-     .Zrange "-2.8", "0" 
+     .Zrange "-2.7", "0" 
      .Create
 End With
 
@@ -273,7 +273,7 @@ With Brick
      .Material "Copper (annealed)" 
      .Xrange "-Ws/2", "Ws/2" 
      .Yrange "-Ls/2 +Lg", "-Ls/2" 
-     .Zrange "-2.835", "-2.8" 
+     .Zrange "-2.735", "-2.7" 
      .Create
 End With
 

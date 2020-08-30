@@ -21,7 +21,7 @@ Number of mesh faces filled with PEC due to fill limit restrictions: 0
 --------------------------------------------------------------------------------
   ------------------------------- F-Calc 1.85 --------------------------------
   Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
-  1      1      UNDEF       653           6.93e-010     ---           ---
+  1      1      UNDEF       653           4.60e-010     ---           ---
   ----------------------------------------------------------------------------
 
 Pass 1 successfully completed. 
@@ -29,7 +29,7 @@ Adaptive port meshing finished.
 
 --------------------------------------------------------------------------------
 
-Solver started at: 11:41 AM Monday, 24. August 2020
+Solver started at: 09:53 AM Tuesday, 25. August 2020
 
   Module:  Time Domain: S-Parameter (Win 64)
   Version: 2015.0 Release from 2015-01-16 (change 344899)
@@ -78,7 +78,7 @@ Boundary conditions:
   Ymin: expanded open, 4 Layer, depth 32.41 mm
   Ymax: expanded open, 4 Layer, depth 32.41 mm
 
-  Zmin: expanded open, 4 Layer, depth 29.9081 mm
+  Zmin: expanded open, 4 Layer, depth 30.1271 mm
   Zmax: expanded open, 4 Layer, depth 32.41 mm
 
   PML-Type: Convolution PML
@@ -97,7 +97,7 @@ Port: 1
 
   ------------------------------- F-Calc 1.85 --------------------------------
   Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
-  1      1      UNDEF       657           1.01e-008     ---           ---
+  1      1      UNDEF       659           4.81e-008     ---           ---
   ----------------------------------------------------------------------------
 
   Using first order filter.
@@ -144,8 +144,8 @@ Frequency domain results normalized to default signal.
                       Peak memory used (kB)         Free physical memory (kB) 
                                                     At begin     Minimum      
   ----------------------------------------------------------------------------
-  Matrices calc.      428548                        12042128     11715416     
-  Solver run total    137364                        12155612     11730172     
+  Matrices calc.      427956                        12023080     11753900     
+  Solver run total    281080                        12205428     11762352     
   ----------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
@@ -159,31 +159,31 @@ Solver Statistics:
 
   Number of mesh cells:             	331660
   Excitation duration:              	9.60688851e-001 ns 
-  Calculation time for excitation:  	3      	s
-  Number of calculated pulse widths:	19.9995 
+  Calculation time for excitation:  	4      	s
+  Number of calculated pulse widths:	20 
   Steady state accuracy limit:      	-30	dB 
-  Simulated number of time steps:   	9184   
-  Maximum number of time steps:     	9184   
+  Simulated number of time steps:   	9226   
+  Maximum number of time steps:     	9226   
   Time step width:
-     without subcycles:             	2.09204329e-003 ns
-     used:                          	2.09204329e-003 ns
+     without subcycles:             	2.08256400e-003 ns
+     used:                          	2.08256400e-003 ns
 
-  Matrix calculation time:          	15     	s
+  Matrix calculation time:          	16     	s
   Solver setup time:                	3      	s
-  Solver loop time:                 	63     	s
+  Solver loop time:                 	64     	s
   Solver post processing time:      	0      	s
                                     	------------
-  Total solver time:                	81     	s  ( = 0 h, 1 m, 21 s )
+  Total solver time:                	83     	s  ( = 0 h, 1 m, 23 s )
 
 --------------------------------------------------------------------------------
 
   Adaptive port meshing time:       	3      	s
-  Total solver time (all cycles):   	82     	s  ( = 0 h, 1 m, 22 s )
+  Total solver time (all cycles):   	83     	s  ( = 0 h, 1 m, 23 s )
                                     	------------
-  Total simulation time:            	85     	s  ( = 0 h, 1 m, 25 s )
+  Total simulation time:            	86     	s  ( = 0 h, 1 m, 26 s )
 
 --------------------------------------------------------------------------------
-Solver finished at: 11:42 AM Monday, 24. August 2020
+Solver finished at: 09:54 AM Tuesday, 25. August 2020
 
 
 --------------------------------------------------------------------------------
